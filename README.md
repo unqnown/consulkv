@@ -1,6 +1,8 @@
 ### consulkv
 
 consulkv is a command line utility that simplifies consul kv management.
+Exported values are base64 decoded which makes them well readable and editable.
+After changing kvs may be imported back to consul with preserving same format.
 
 ### installation
 
